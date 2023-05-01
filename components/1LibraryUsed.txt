@@ -1,0 +1,41 @@
+
+---------------FOR THE ICONS----------------- 
+"@heroicons/react"
+
+"react-social-icons"
+   
+   
+ ----------------FOR ANIMATION---------------  
+"framer-motion"
+
+<motion.div
+    initial={{x:-500, opacity: 0}}
+    animate={{x: 0, opacity: 1}}
+    transition={{duration: 1.5}}
+    viewport={{once: true}}
+
+>
+</motion.div>
+   
+ ----------FOR EASIER WAY OF HANDLING FORM----------
+"react-hook-form"
+    
+
+
+--------------TYPEWRITER ANIMATION----------------
+"react-simple-typewriter"
+const [text, count] = useTypewriter({
+        words: ["Hi, The Name's Rienger",'Guy who loves Gaming', '<ButLovesToCodeMore />'],
+        loop: true,
+        delaySpeed: 2000,
+    })
+
+
+--------------CHANGE SCROLLBAR APPEARANCE-----------
+"tailwind-scrollbar"
+
+configuration is on tailwind.config.js
+plugins: [
+    require('tailwind-scrollbar'),
+  ],
+   

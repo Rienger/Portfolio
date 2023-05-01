@@ -1,0 +1,6 @@
+
+ ctrl + space = tailwind recommendation 
+
+
+
+ ctrl + shift + i  =  prettier
