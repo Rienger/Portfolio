@@ -55,9 +55,9 @@ export default function Home() {
       </section>
 
 
-      {/* <section className='snap-start'>
+      <section className=''>
         <Carousel/>
-      </section> */}
+      </section>
     </div>
   )
 }
