@@ -55,9 +55,9 @@ export default function Home() {
       </section>
 
 
-      <section className=''>
+      {/* <section className=''>
         <Carousel/>
-      </section>
+      </section> */}
     </div>
   )
 }

@@ -59,16 +59,14 @@ function Header() {
         }}
         className='flex flex-row items-center text-gray-300 cursor-pointer'>
            
-            <SocialIcon 
-            url="https://www.email.com"
-            fgColor='gray' 
-            bgColor='transparent'
-            />
+           <a href='#contact'>
             
-            
-            <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>
+            <p className='uppercase hidden md:inline-flex text-sm text-gray-400
+            border-gray-400 border rounded-lg py-2 px-3
+             hover:text-[#f7ab0a] hover:border-[#f7ab0a] '>
             Get In Touch
             </p>
+            </a>
            
            
         </motion.div>

@@ -40,17 +40,17 @@ function Contact() {
         <div className='space-y-10'>
             <div className='flex items-center space-x-5 justify-center'>
             <PhoneIcon className='text-[#f7ab0a] h-7 w-7 animate-pulse'/>
-            <p className='text-2xl'>+1234052384</p>
+            <p className='text-2xl'>+09393427796</p>
             </div>
 
             <div className='flex items-center space-x-5 justify-center'>
             <MapPinIcon className='text-[#f7ab0a] h-7 w-7 animate-pulse'/>
-            <p className='text-2xl'>+123 Developer Lane</p>
+            <p className='text-2xl'>+1603 Pasig City</p>
             </div>
 
             <div className='flex items-center space-x-5 justify-center'>
             <EnvelopeIcon className='text-[#f7ab0a] h-7 w-7 animate-pulse'/>
-            <p className='text-2xl'>dev@gmail.com</p>
+            <p className='text-2xl'>rinkabasuil7@gmail.com</p>
             </div>
 
 

@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 import levi from '../public/images/levi.jpg'
 import projectArray from '../public/projectArray'
+import Link from 'next/link'
 
 function Projects() {
 
@@ -33,21 +34,28 @@ function Projects() {
                     transition={{duration: 1}}
                     viewport={{once: true}}
                     >
+                    <a href={value.link} target='_blank'>
                     <Image 
-                    className='h-[15rem] w-[25rem] border-4 border-[#f7ab0a] rounded-lg
+                    className='h-[15rem] w-[25rem]  border-[#f7ab0a] rounded-lg
                     xl:h-80 xl:w-[30rem] '
                     src={value.image}
-                    alt='none'    
+                    alt='none'  
+                    href={value.link} 
+                   
+                 
+                    
                     />
+                    </a>
                     </motion.div> 
 
                     <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
                       <h4 className='text-4xl font-semibold text-center'>
-                      Case Study {index+1} of {projectArray.length}
+                      {/* Case Study {index+1} of {projectArray.length} */}
+                      {value.name}
                       </h4>
 
-                      <p className='text-lg text-center md:text-left'>
-                        This is the project summary of the given thesis technology that has been used and frameworks and libraries from node package manager. Install break next js and react native.
+                      <p className='text-lg text-center md:text-left tracking-wide'>
+                        {value.description}
                       </p>
                     </div>
       

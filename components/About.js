@@ -13,9 +13,9 @@ function About() {
     <motion.div
       className="flex flex-col relative h-screen text-center md:text-left
     md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center"
-      initial={{ opacity: 0, x: -200 }}
-      whileInView={{ opacity: 1, x: 0 }}
-      transition={{ duration: 2 }}
+      initial={{ opacity: 0, }}
+      whileInView={{ opacity: 1}}
+      transition={{ duration: 1 }}
 
 
  
@@ -27,10 +27,14 @@ function About() {
 
     
 
-      <div className="flex flex-row overflow-hidden space-x-7">
+      <div className="flex flex-row space-x-7">
 
-        <div
+        <motion.div
         className="min-w-[500px] space-y-3"
+        initial={{ x: -200 }}
+      whileInView={{ x: 0}}
+      transition={{ duration: 1 }}
+      viewport={{once: true}}
         >
 
         
@@ -57,12 +61,15 @@ function About() {
             alt=""
           />
         
-        </div>
+        </motion.div>
 
         <div
         className="my-auto pr-16 text-lg tracking-wider text-gray-300"
         >
-          <h1>
+          <h1 className="text-[25px] font-bold">
+            Here is a little Background
+          </h1>
+          <h1 className="pt-10">
           I am a self-taught web developer who is passionate about what they do and
 truly enjoys building websites and applications.
 
